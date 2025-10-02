@@ -44,6 +44,10 @@ section {
     padding-left: 30px;
 }
 
+section>p {
+    padding-bottom: 2em;
+}
+
 a {
     font-weight: bolder;
     color: white;
@@ -56,11 +60,15 @@ a:hover {
 
 #flor {
     background-image: url(../imagens/background001.jpg);
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.306);
+
 }
 
 
 #livro {
     background-image: url(../imagens/background002.jpg);
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.306);
+
 }
 
 
@@ -71,7 +79,9 @@ a:hover {
     background-attachment: fixed;
     /* height: 500px; */
     padding: 10vh 0;
-    position: relative;
+    /* position: relative; */
+    text-shadow: 1px 1px 0px black;
+
 }
 
 .transparente {
@@ -80,6 +90,7 @@ a:hover {
     width: fit-content;
     /*o ift-content significa o tamanho do conteúdo */
     margin-left: 30px;
+    padding: 5px;
     /* position: absolute; */
     /* top: 50%; */
     /* transform: translateY(-50%); */
