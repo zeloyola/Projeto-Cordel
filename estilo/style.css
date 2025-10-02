@@ -10,13 +10,6 @@
     --font-sriracha: 'sriracha', sans-serif;
 }
 
-header>h1 {
-    font-family: var(--font-passion);
-    font-size: 10vw;
-    color: white;
-    padding: auto;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -25,16 +18,40 @@ header>h1 {
 
 main header {
     background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
 }
 
+header>h1 {
+    font-family: var(--font-passion);
+    color: white;
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
 
-main>section {
-    /* width: 500px;
-    height: 500px; */
+header>P {
+    padding-bottom: 50px;
+}
+
+section {
     font-family: var(--font-sriracha);
-    /* text-align: center; */
+    line-height: 2em;
     font-size: 3.5vw;
-    /* margin: 10px; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #flor {
@@ -46,20 +63,22 @@ main>section {
     background-image: url(../imagens/background002.jpg);
 }
 
+
 .imagem-fundo {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     /* height: 500px; */
-    padding: 10vh 0 ;
+    padding: 10vh 0;
     position: relative;
 }
 
-.transparente{
+.transparente {
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     width: fit-content;
+    /*o ift-content significa o tamanho do conteúdo */
     margin-left: 30px;
     /* position: absolute; */
     /* top: 50%; */
@@ -68,11 +87,12 @@ main>section {
 
 footer {
     background-color: black;
+    text-align: center;
+    padding: 10px;
 
 }
 
 footer>p {
     color: white;
+    margin: auto;
 }
-/* 
-footer>a {} */
